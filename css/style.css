@@ -250,7 +250,8 @@ a {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    position: relative; }
+    position: relative;
+    text-align: center; }
     .all-services__item:hover {
       background-color: #c8a35f; }
       .all-services__item:hover .all-services__icon {
