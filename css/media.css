@@ -1,0 +1,204 @@
+@media (max-width: 992px) {
+  .ferst-screen {
+    padding-top: 100px;
+    min-height: 500px; }
+
+  .firstline__menu {
+    font-size: 14px; }
+  .firstline__item + .firstline__item {
+    margin-left: 15px; }
+  .firstline__logo {
+    margin-right: 15px; }
+
+  .services {
+    padding: 100px 0; }
+    .services__info {
+      margin-right: 0; }
+
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    list-style: none; }
+    .slick-dots button {
+      border: none;
+      font-size: 0;
+      height: 12px;
+      width: 10px;
+      background-color: #c8a35f;
+      border-radius: 50%;
+      margin: 10px;
+      opacity: 0.7; }
+
+  .slick-active button {
+    opacity: 1; }
+
+  .all-services {
+    padding: 100px 0; }
+
+  .about__wrapper {
+    display: block; }
+
+  .about__info {
+    max-width: 100%;
+    margin-right: 0; }
+
+  .footer {
+    padding: 30px 0; } }
+@media (max-width: 768px) {
+  .firstline .header__btn {
+    display: block; }
+
+  .firstline__menu {
+    display: none;
+    position: absolute;
+    top: 148px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #393f47; }
+  .firstline__item + .firstline__item {
+    margin-left: 0px; }
+  .firstline__link {
+    display: block;
+    padding: 15px;
+    text-align: center; }
+
+  .ferst-screen__title {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 0; }
+
+  .services {
+    padding: 50px 0; }
+    .services::after {
+      left: -100px; }
+    .services::before {
+      right: -100px; }
+    .services__info {
+      position: relative; }
+    .services__img {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 100px;
+      width: 200px; }
+
+  .about::before {
+    width: 250px; }
+
+  .footer__inner {
+    flex-wrap: wrap; }
+  .footer__logo-link {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px; } }
+@media (max-width: 480px) {
+  .firstline__logo {
+    margin-right: 10px;
+    padding-right: 10px;
+    width: 150px; }
+
+  .firstline__ofice {
+    font-size: 12px; }
+    .firstline__ofice::before {
+      background-size: cover;
+      height: 20px;
+      width: 20px;
+      top: 2px; }
+
+  .ferst-screen {
+    padding-top: 50px;
+    min-height: 320px; }
+
+  .ferst-screen__iinner {
+    padding: 0 10px;
+    min-height: 170px; }
+
+  .ferst-screen__title {
+    font-size: 25px;
+    line-height: 30px; }
+
+  .ferst-screen__text {
+    font-size: 12px; }
+
+  .ferst-screen::before {
+    display: none; }
+
+  .services {
+    padding: 25px 0; }
+
+  .services__text {
+    font-size: 12px;
+    line-height: 20px; }
+
+  .services__btn {
+    padding: 10px 20px; }
+
+  .services__text {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 50px; }
+
+  .title {
+    font-size: 24px;
+    line-height: 30px; }
+    .title::before {
+      top: -20px; }
+
+  .all-services {
+    padding: 50px 0; }
+    .all-services__title {
+      margin-bottom: 30px; }
+    .all-services__item {
+      height: 100px;
+      width: 140px;
+      padding: 15px;
+      font-size: 12px; }
+    .all-services__icon {
+      width: 40px;
+      height: 40px;
+      top: 15px; }
+      .all-services__icon svg {
+        width: 20px;
+        height: 20px; }
+
+  .about {
+    padding: 50px 0; }
+    .about__text, .about__item-text {
+      font-size: 12px; }
+    .about__item, .about__item-img {
+      height: 100px;
+      width: 140px; }
+    .about__item-quantity {
+      margin-top: 6px;
+      font-size: 30px;
+      line-height: 37px; }
+
+  .map {
+    padding-top: 50px; }
+
+  .footer__inner {
+    justify-content: center;
+    text-align: center; }
+  .footer__adress-email {
+    margin-bottom: 10px; }
+  .footer__adress {
+    margin-bottom: 10px; }
+  .footer__email {
+    display: block;
+    padding: 10px 0; }
+  .footer__phones {
+    margin-left: 0; }
+  .footer__phone {
+    display: inline-block;
+    width: 100%;
+    line-height: 30px; } }
+@media (min-width: 768px) {
+  .firstline__menu {
+    display: flex !important; } }
+
+/*# sourceMappingURL=media.css.map */
