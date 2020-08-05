@@ -197,7 +197,7 @@
     display: inline-block;
     width: 100%;
     line-height: 30px; } }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .firstline__menu {
     display: flex !important; } }
 
