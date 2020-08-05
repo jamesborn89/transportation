@@ -356,12 +356,13 @@ a {
         margin: 1px;
         height: 180px;
         width: 268px;
-        padding: 36px;
+        padding: 0 15px 36px;
         background-color: $gray;
         text-transform: uppercase;
         font-size: 18px;
         font-weight: 700;
         position: relative;
+        
 
         &:hover {
             background-color: $gold;
@@ -424,6 +425,12 @@ a {
         background-color: #fff;
         color: $dark;
         text-align: center;
+    }
+
+    &__item-img {
+        width: 200px;
+        height: 160px;
+        object-fit: cover;
     }
 
     &__item-quantity {
