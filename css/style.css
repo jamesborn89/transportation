@@ -76,16 +76,25 @@ a {
       width: 25px; }
   .firstline .header__btn {
     display: none;
-    width: 30px;
-    height: 30px;
-    border: 2px solid #c8a35f;
-    border-radius: 5px; }
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer; }
+    .firstline .header__btn.active .top {
+      transform: rotate(45deg); }
+    .firstline .header__btn.active .middle {
+      opacity: 0; }
+    .firstline .header__btn.active .bottom {
+      transform: rotate(-45deg); }
   .firstline .header__btn-row {
-    display: block;
-    height: 2px;
-    width: 15px;
-    margin: 5px auto;
-    background-color: #c8a35f; }
+    height: 5px;
+    background: #c8a35f;
+    border-radius: 5px;
+    margin: 3px 0px;
+    transform-origin: left;
+    transition: all 0.5s; }
   .firstline__menu {
     display: flex;
     margin: 0;

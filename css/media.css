@@ -47,7 +47,7 @@
     padding: 30px 0; } }
 @media (max-width: 768px) {
   .firstline .header__btn {
-    display: block; }
+    display: flex; }
 
   .firstline__menu {
     display: none;

@@ -116,18 +116,34 @@ a {
 
     .header__btn {
         display: none;
-        width: 30px;
-        height: 30px;
-        border: 2px solid $gold;
-        border-radius: 5px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 2.5rem;
+        width: 2.5rem;
+        cursor: pointer;
+
+        &.active {
+            .top {
+                transform: rotate(45deg);
+            }
+            .middle {
+                opacity: 0;
+            }
+
+            .bottom{
+                transform: rotate(-45deg);
+            }
+        }
     }
-    
+
     .header__btn-row {
-        display: block;
-        height: 2px;
-        width: 15px;
-        margin: 5px auto;
-        background-color: $gold;
+        height: 5px;
+        background: $gold;
+        border-radius: 5px;
+        margin: 3px 0px;
+        transform-origin: left;
+        transition: all 0.5s;
     }
 
     &__menu {
@@ -363,7 +379,6 @@ a {
         font-weight: 700;
         position: relative;
         text-align: center;
-        
 
         &:hover {
             background-color: $gold;

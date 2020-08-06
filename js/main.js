@@ -18,6 +18,10 @@ $(function(){
     });
 
     $('.header__btn').on('click', function(){
+      $('.header__btn').toggleClass('active');
+    });
+
+    $('.header__btn').on('click', function(){
         $('.firstline__menu').slideToggle();
       });
 
